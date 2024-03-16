@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.buy-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.buy-head {
+  text-align: center;
+}
+.buy-info {
+  /* border: 2px solid blue; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buy-info input {
+  width: 50%;
+  height: 30px;
+  color: black;
+  /* width: 10px; */
+  align-items: center;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.buy-info h1 {
+  margin: 5% 0 5% 0;
+}
+
+.buy-info button {
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 5%;
+  width: 40%;
+  height: 40px;
+  /* background-color: lightblue; */
+  border: 2px solid blue;
+  border-radius: 15px;
+}

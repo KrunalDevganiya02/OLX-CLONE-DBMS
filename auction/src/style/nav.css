@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: xx-large;
+  /* color: black; */
+  font-size: 30px;
+  text-align: right;
+  font-weight: bolder;
+}
+
+.nav {
+  width: 99%;
+  height: 45px;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logBtn {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  /* width: 100px; */
+}
+.logBtn button {
+  margin: 0 15px 0 15px;
+  padding: 1% 15px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.og-nav {
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+  width: 45%;
+}
+
+.nav_val {
+  margin: 0 10%;
+  width: 180px;
+  font-size: larger;
+  /* color: black; */
+}

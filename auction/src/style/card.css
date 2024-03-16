@@ -1,0 +1,28 @@
+.card-con {
+  margin: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 20px;
+  border: 1px solid white;
+  margin: 25px;
+  padding: 25px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-con .card button {
+  width: 90px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(173, 216, 230, 0);
+}

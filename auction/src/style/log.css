@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.log-con {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log {
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 55vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.log h1 {
+  text-align: center;
+  margin: 1vh 1vh 3vh 1vh;
+}
+
+.log input {
+  height: 5vh;
+  width: 18vw;
+  margin: 1vh 0;
+  border-radius: 7px;
+  border: 2px solid white;
+  background-color: white;
+  font-weight: bolder;
+}
+
+.log button {
+  background-color: rgba(173, 216, 230, 0);
+  border: 2px solid white;
+  margin: 1vh;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: bold;
+  width: 18vw;
+  height: 6vh;
+}

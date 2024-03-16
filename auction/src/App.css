@@ -1,0 +1,8 @@
+* {
+  color: white;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: 500;
+}

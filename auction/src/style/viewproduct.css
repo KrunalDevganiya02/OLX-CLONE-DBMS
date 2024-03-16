@@ -1,0 +1,40 @@
+.view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.view-photo {
+  display: inline;
+  /* width: 50vw; */
+  border: 2px solid white;
+  margin: 25px;
+}
+
+.view-info {
+  margin: 25px;
+  display: inline;
+  width: 30vw;
+}
+.view-info p {
+  /* padding: 50px; */
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.view-info span {
+  /* padding: 50px; */
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.view-info button {
+  border: 2px solid white;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: larger;
+  background-color: #ffffff00;
+}
